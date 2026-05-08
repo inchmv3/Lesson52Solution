@@ -4,7 +4,7 @@ void sort_bubble(int array[], int size) {
 	if (size <= 0) {
 		return;
 	}
-
+	//
 	for (int i = 0; i < size - 1; i++)
 	{
 		bool flag = true;
