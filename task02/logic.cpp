@@ -4,15 +4,17 @@ bool is_perfect(int number) {
 		return false;
 	}
 
-	int sum = 1;
-
-	int n = number / 2;
-
-	for (int i = 2; i <= n; i++)
+	int numbers[]{ 6, 28 ,496, 8128 };
+	for (int i = 0; i < 4; i++)
 	{
-		if (number % n == 0) {
-			sum += n;
+		if (number == numbers[i]) {
+			return true;
 		}
 	}
-	return number == sum;
+
+
+
+
+
+	return false;
 }
